@@ -19,7 +19,7 @@
         <title>Listado 2</title>
     </head>
     <body>
-        <h2>Tabla ríos:</h2>
+        <h1>Tabla ríos:</h1>
 
         <%
             Map<String, Rios> rios = new HashMap<String, Rios>(); 

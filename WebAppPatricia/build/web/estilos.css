@@ -1,0 +1,108 @@
+*{
+    font-family: verdana;
+}
+
+body{
+    margin: 0px;
+    color: #3360A7;
+    display: grid;
+    min-height: 100vh;
+    margin: 10px;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    background-color: #3360A7;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+article {
+    display: inline;
+}
+
+.article{
+    text-align: right;
+}
+
+table{
+    background-color: #3360A7;
+    color: white;
+}
+
+.contenedor{
+    background-color: #3360A7;
+    opacity: 0.5;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.textoIzq{
+    float: left;
+}
+
+.textoDch{
+    float: right;
+}
+
+.img{
+    display:block;
+    margin:auto;
+}
+
+.boton{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+    background: #3360A7;
+    border-radius: 6px;
+    border: 2px solid #3360A7;
+    display: inline-block;
+    text-align:center;
+    opacity: 0.8;
+}
+
+.info{
+    margin: 20px;
+}
+
+#pieFoto{
+    font-size: 10px;
+    text-align: center;
+}
+
+#tbody th {
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#tbody td {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #A0B6D8;
+}
+
+tr:hover{
+    background-color: gray;
+}
+
+td:hover{
+    background-color: gray;
+}
+
+
